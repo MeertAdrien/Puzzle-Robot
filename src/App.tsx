@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import "./App.css";
+import PuzzleRobot from './components/Robot-Puzzle';
 
 
 function App (){
@@ -7,6 +8,7 @@ function App (){
     <>
       <div>
         <Header />  
+        <PuzzleRobot/>
       </div>
       
     </>
