@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(231, 212, 106);
+}
+
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    padding-top: 1rem;        
+    gap: 20rem;                
+    
+}
+
+.title {
+    font-size: 3rem;
+    color: rgb(128, 123, 122);
+    font-family: 'Bangers', cursive;
+    margin: 0;
+}
+
+.image {
+    width: 200px;
+    
+}

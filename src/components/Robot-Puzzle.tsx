@@ -1,4 +1,8 @@
+
+
+import styles from "./Header.module.css"
 import styles from "./Robot-Puzzle.module.css"
+
 
 
 export const PuzzleRobot = () => {
@@ -13,7 +17,6 @@ export const PuzzleRobot = () => {
   <div><img src="src/assets/un_robot_entrain_de_faire_du_code_sur_un_pc 7.png" alt="Robot B/G"/></div>
   <div><img src="src/assets/un_robot_entrain_de_faire_du_code_sur_un_pc 8.png" alt="Robot B/M"/></div>
   <div><img src="src/assets/un_robot_entrain_de_faire_du_code_sur_un_pc 9.png" alt="Robot B/D"/></div>
- 
 </section>
     );
 };
