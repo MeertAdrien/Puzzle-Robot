@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+  
+}
+
+.reset {
+    border: none;
+    padding: 0;
+    width: 50px;
+    height: 24px;
+    outline:none
+   
+}
+.reset img:hover {
+    transform: scale(1.1);  
+}
+
+.reset img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+.reset:focus {
+    outline: none;
+}
+

@@ -1,14 +1,22 @@
 .section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #c3c2c2;
-    
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4cccc;
 }
 
 .section img {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.focus {
+  border: 6px solid black;
+}
+.message {
+  font-family: "Bangers", cursive;
+  font-size: 2rem;
+  color: rgb(35, 24, 238);
 }
